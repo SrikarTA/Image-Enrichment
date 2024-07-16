@@ -42,13 +42,12 @@ Combining LoRA (Low-Rank Adaptation) weights and Textual Inversion with the Real
 
 ## Results
 
+<img width="460" height="300" src="1.png">
+<img width="460" height="300" src="2.png">
+<img width="460" height="300" src="3.png">
+<img width="460" height="300" src="4.png">
+<img width="460" height="300" src="5.png">
 
-
-![alt text](1.png)
-![alt text](2.png)
-![alt text](3.png)
-![alt text](4.png)
-![alt text](5.png)
 
 
 
