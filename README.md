@@ -77,7 +77,7 @@ Combining LoRA (Low-Rank Adaptation) weights and Textual Inversion with the Real
 
 
 <a id="pipeline"></a>
-## End to End pipeline:
+## Setup:
 We have successfully implemented the above approaches and have created an end to end pipeline. to make process very simple.
 
 Install all the requirements to run the code
