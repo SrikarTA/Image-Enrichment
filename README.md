@@ -9,7 +9,7 @@ By using Stable Diffusion, businesses can cater to the many demands of a global 
 
 **Architecture Diagram**
 ![alt text](image.png)
-![alt text](image-2.png)
+  ![alt text](image-2.png)
 
 
 ## Tools and Models used
