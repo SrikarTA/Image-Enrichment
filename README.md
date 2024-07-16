@@ -8,7 +8,10 @@ By using Stable Diffusion, businesses can cater to the many demands of a global 
 
 
 **Architecture Diagram**
-![alt text](image.png)
+<p align="center">
+  <img width="460" height="300" src="image.png">
+</p>
+**Input Diagram**
 <p align="center">
   <img width="460" height="300" src="image-2.png">
 </p>
