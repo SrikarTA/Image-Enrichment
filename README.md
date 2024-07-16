@@ -1,3 +1,12 @@
+# Image Enrichment using Stable Diffusion
+
+Image enrichment using Stable Diffusion involves leveraging diffusion models to enhance, upscale, or modify images. Stable Diffusion, a type of diffusion model, can generate high-quality images by iteratively refining a noisy image to match a given target distribution. This technique is particularly useful for tasks like image super-resolution, inpainting, and style transfer.
+
+## What we have ? 
+
+We have a modularized codebase with the pipeline file that can be used for generation high quality and realistic images using Realistic_Vision_V5.1_noVAE.The pipeline is invoked using responsive streamlit application.
+
+
 ## Table of Contents
 
 1.[What is Hypersonalization](#hyperpersonalization) 
