@@ -10,7 +10,9 @@
 
 5.[Tuning](#tuning)
 
-6.[Results](#results)
+6.[Pipeline](#pipeline)
+
+7.[Results](#results)
 
 
 
@@ -65,6 +67,21 @@ Textual Inversion enables the model to learn and embed new concepts or terms, en
 Combining LoRA (Low-Rank Adaptation) weights and Textual Inversion with the Realistic_Vision_V5.1_noVAE model can significantly enhance the hyperpersonalization of content for pets and their owners across different ethnicities. This approach leverages the strengths of both techniques to generate highly detailed and culturally relevant images.
 
 
+<a id="pipeline"></a>
+## End to End pipeline:
+We have successfully implemented the above approaches and have created an end to end pipeline. to make process very simple.
+
+Install all the requirements to run the code
+
+        $ pip install -r requirements.txt
+        
+ After installing all the required libraries, now let's run the code
+ 
+        $ python App.py
+        
+
+
+
 <a id="results"></a>
 ## Results
 
@@ -75,6 +92,8 @@ Combining LoRA (Low-Rank Adaptation) weights and Textual Inversion with the Real
     <img width="400" height="400" src="3.png">
     <img width="400" height="400" src="4.png">
 </div>
+
+
 
 
 
