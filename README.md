@@ -28,7 +28,7 @@ By using Stable Diffusion, businesses can cater to the many demands of a global 
 
 **Architecture Diagram**
 <p align="center">
-  <img width="460" height="300" src="model_architecture.png>
+  <img width="460" height="300" src="model_architecture.png">
 </p>
 
 
