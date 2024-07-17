@@ -46,11 +46,13 @@ Models used for the generating images:
 ## Tuning
 
 To refine the output from the Realistic_Vision_V5.1_noVAE we can use:
-    **loRa weights**
+    **loRa weights**,
     **Textual Inversion**
 
+### LoRa
 Low-Rank Adaptation (LoRA) is a technique used to fine-tune large neural networks by introducing additional trainable parameters. LoRA allows efficient adaptation of pre-trained models to new tasks or domains without the need to retrain the entire model, making it an excellent approach for enhancing image quality.
 
+### Textual Inversion
 Textual Inversion enables the model to learn and embed new concepts or terms, enhancing its ability to generate contextually accurate content based on textual inputs.
 
 Combining LoRA (Low-Rank Adaptation) weights and Textual Inversion with the Realistic_Vision_V5.1_noVAE model can significantly enhance the hyperpersonalization of content for pets and their owners across different ethnicities. This approach leverages the strengths of both techniques to generate highly detailed and culturally relevant images.
