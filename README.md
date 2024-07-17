@@ -1,40 +1,24 @@
-# Image Enrichment using Stable Diffusion
-
-Image enrichment using Stable Diffusion involves leveraging diffusion models to enhance, upscale, or modify images. Stable Diffusion, a type of diffusion model, can generate high-quality images by iteratively refining a noisy image to match a given target distribution. This technique is particularly useful for tasks like image super-resolution, inpainting, and style transfer.
-
-## What we have ? 
-
-We have a modularized codebase with the pipeline file that can be used for generation high quality and realistic images using Realistic_Vision_V5.1_noVAE.The pipeline is invoked using responsive streamlit application.
-
+# Image Enrichment 
 
 ## Table of Contents
 
-1.[What is Hypersonalization](#hyperpersonalization) 
+1.[Introduction](#introduction)
 
-2.[Introduction](#introduction)
+2.[Approach](#approach)
 
-3.[Approach](#approach)
+3.[Tools and Models used](#tools)
 
-4.[Tools and Models used](#tools)
+4.[Tuning](#tuning)
 
-5.[Tuning](#tuning)
+5.[Results](#results)
 
-6.[Pipeline](#pipeline)
-
-7.[Results](#results)
-
-
-
-<a id="hyperpersonalization"></a>
-## What is Hyperpersonalization ? 
-
-Hyperpersonalization is a strategy that leverages data, artificial intelligence, and real-time processing to deliver highly relevant and individualized experiences to customers. It goes beyond traditional personalization by using more detailed customer data and sophisticated algorithms to tailor interactions and offerings to each individual's unique preferences, behaviors, and needs.
+6.[Setup](#pipeline)
 
 
 <a id="introduction"></a>
 ## Introduction
-
-Objective of the Project focuses on creating an AI-driven hyper-personalization system that uses Stable Diffusion to create personalized pet images according to user-specified parameters. Users will be able to choose parameters like breed, species (dog or cat), background, and extra features, and the system will create realistic, detailed images that match these parameters. The end result will be seamlessly realistic where each generated image accurately reflects the selected characteristics, giving users personalized, AI-generated pet images.
+Image enrichment using Stable Diffusion involves leveraging diffusion models to enhance, upscale, or modify images. Stable Diffusion, a type of diffusion model, can generate high-quality images by iteratively refining a noisy image to match a given target distribution. This technique is particularly useful for tasks like image super-resolution, inpainting, and style transfer.Hyperpersonalization is a strategy that leverages data, artificial intelligence, and real-time processing to deliver highly relevant images for the given prompts.
+Objective of the Project focuses on creating an AI-driven hyper-personalization system that uses Stable Diffusion to create personalized pet images according to user-specified parameters. Users will be able to choose parameters like breed, species (dog or cat), background, and extra features, and the system will create realistic, detailed images that match these parameters. The end result will be seamlessly realistic where each generated image accurately reflects the selected characteristics, giving users personalized, AI-generated pet images that are indistinguishable from the real image.
 
 <a id="approach"></a>
 ## Approach
@@ -76,19 +60,6 @@ Textual Inversion enables the model to learn and embed new concepts or terms, en
 Combining LoRA (Low-Rank Adaptation) weights and Textual Inversion with the Realistic_Vision_V5.1_noVAE model can significantly enhance the hyperpersonalization of content for pets and their owners across different ethnicities. This approach leverages the strengths of both techniques to generate highly detailed and culturally relevant images.
 
 
-<a id="pipeline"></a>
-## Setup:
-We have successfully implemented the above approaches and have created an end to end pipeline. to make process very simple.
-
-Install all the requirements to run the code
-
-        $ pip install -r requirements.txt
-        
- After installing all the required libraries, now let's run the code
- 
-        $ python App.py
-        
-
 
 
 <a id="results"></a>
@@ -102,7 +73,18 @@ Install all the requirements to run the code
     <img width="400" height="400" src="4.png">
 </div>
 
+<a id="pipeline"></a>
+## Setup:
+We have successfully implemented the above approaches and have created an end to end pipeline. to make process very simple.
 
+Install all the requirements to run the code
+
+        $ pip install -r requirements.txt
+        
+ After installing all the required libraries, now let's run the code
+ 
+        $ python App.py
+        
 
 
 
