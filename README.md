@@ -36,6 +36,10 @@ By using Stable Diffusion, businesses can cater to the many demands of a global 
   <img width="800" height="300" src="model-working-arch.png">
 </p>
 
+**flowchart**
+<p align="center">
+  <img width="500" height="300" src="flowchart.png">
+</p>
 
 <a id="tools"></a>
 ## Tools and Models used
