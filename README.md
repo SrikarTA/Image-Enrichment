@@ -65,9 +65,13 @@ Combining LoRA (Low-Rank Adaptation) weights and Textual Inversion with the Real
 
 
 <div >
+    <p>Input : Man with Caucasian ethnicity and Husky in cozy living room.</p>
     <img width="400" height="400" src="1.png">
+    <p>Input : Caucasian man with Husky sitting in a comfortable living room.</p>
     <img width="400" height="400" src="2.png">
+    <p>Input : Caucasian man with Husky in bright, cozy living room setting.</p>
     <img width="400" height="400" src="3.png">
+    <p>Input : Caucasian man with Husky relaxing together in a cozy living room.</p>
     <img width="400" height="400" src="4.png">
 </div>
 
