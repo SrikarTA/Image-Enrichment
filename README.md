@@ -4,7 +4,7 @@
 
 1.[Introduction](#introduction)
 
-2.[Approach](#approach)
+2.[Solution Architecture](#approach)
 
 3.[Tools and Models used](#tools)
 
@@ -21,7 +21,7 @@ Image enrichment using Stable Diffusion involves leveraging diffusion models to 
 Objective of the Project focuses on creating an AI-driven hyper-personalization system that uses Stable Diffusion to create personalized pet images according to user-specified parameters. Users will be able to choose parameters like breed, species (dog or cat), background, and extra features, and the system will create realistic, detailed images that match these parameters. The end result will be seamlessly realistic where each generated image accurately reflects the selected characteristics, giving users personalized, AI-generated pet images that are indistinguishable from the real image.
 
 <a id="approach"></a>
-## Approach
+## Solution Architecture
 
 By using Stable Diffusion, businesses can cater to the many demands of a global population and offer a high level of hyperpersonalization for pets and their owners. In addition to increasing consumer happiness, this method produces images that are identical to the real thing.
 
