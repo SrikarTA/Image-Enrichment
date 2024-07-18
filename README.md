@@ -8,7 +8,7 @@
 
 3.[Tools and Models used](#tools)
 
-4.[Tuning](#tuning)
+4.[Model Fine-Tuning](#tuning)
 
 5.[Results](#results)
 
@@ -28,18 +28,9 @@ By using Stable Diffusion, businesses can cater to the many demands of a global 
 
 **Architecture Diagram**
 <p align="center">
-  <img width="700" height="300" src="model_arch-2.png">
+  <img width="900" height="300" src="arch.png">
 </p>
 
-**Working Diagram**
-<p align="center">
-  <img width="800" height="300" src="model-working-arch.png">
-</p>
-
-**flowchart**
-<p align="center">
-  <img width="500" height="300" src="flowchart.png">
-</p>
 
 <a id="tools"></a>
 ## Tools and Models used
@@ -52,7 +43,7 @@ Models used for the generating images:
     **Realistic_Vision_V5.1_noVAE**
 
 <a id="tuning"></a>
-## Tuning
+## Model Fine-Tuning
 
 To refine the output from the Realistic_Vision_V5.1_noVAE we can use:
     **loRa weights**,
